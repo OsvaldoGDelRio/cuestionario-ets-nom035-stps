@@ -1,0 +1,21 @@
+{
+    "name": "osvaldogdelrio/cuestionario-ets-nom035-stps",
+    "description": "Clase PHP para el cuestionario ETS NOM035-STPS",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Osvaldo G Del Rio",
+            "email": "osdelrio@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "require": {
+        "osvaldogdelrio/factory": "dev-main",
+        "osvaldogdelrio/trabajador": "dev-main"
+    }
+}

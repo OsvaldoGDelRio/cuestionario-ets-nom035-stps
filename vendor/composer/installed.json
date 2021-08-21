@@ -1,0 +1,91 @@
+{
+    "packages": [
+        {
+            "name": "osvaldogdelrio/factory",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OsvaldoGDelRio/factory.git",
+                "reference": "c56fec704cba73f168635d31cd94281e459e304b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OsvaldoGDelRio/factory/zipball/c56fec704cba73f168635d31cd94281e459e304b",
+                "reference": "c56fec704cba73f168635d31cd94281e459e304b",
+                "shasum": ""
+            },
+            "time": "2021-08-21T15:39:20+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "src\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Osvaldo G Del Rio",
+                    "email": "osdelrio@hotmail.com"
+                }
+            ],
+            "description": "Clase para crear otros objetos/clases con el patr\u0000n Factory",
+            "support": {
+                "issues": "https://github.com/OsvaldoGDelRio/factory/issues",
+                "source": "https://github.com/OsvaldoGDelRio/factory/tree/main"
+            },
+            "install-path": "../osvaldogdelrio/factory"
+        },
+        {
+            "name": "osvaldogdelrio/trabajador",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OsvaldoGDelRio/trabajador-nom035-stps.git",
+                "reference": "e4b5ba961775211c7227104f1858d068025538b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OsvaldoGDelRio/trabajador-nom035-stps/zipball/e4b5ba961775211c7227104f1858d068025538b0",
+                "reference": "e4b5ba961775211c7227104f1858d068025538b0",
+                "shasum": ""
+            },
+            "require": {
+                "osvaldogdelrio/factory": "dev-main"
+            },
+            "time": "2021-08-21T15:43:29+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "src\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Osvaldo G Del Rio",
+                    "email": "osdelrio@hotmail.com"
+                }
+            ],
+            "description": "Clase para generar objeto Trabajador y sus atributos conforme a la NOM-035-STPS",
+            "support": {
+                "issues": "https://github.com/OsvaldoGDelRio/trabajador-nom035-stps/issues",
+                "source": "https://github.com/OsvaldoGDelRio/trabajador-nom035-stps/tree/main"
+            },
+            "install-path": "../osvaldogdelrio/trabajador"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
