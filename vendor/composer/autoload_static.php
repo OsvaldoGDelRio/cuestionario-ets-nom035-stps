@@ -24,6 +24,33 @@ class ComposerStaticInit7c679878d06cac50f7cb4053b3965518
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'src\\AcontecimientoTraumaticoSevero' => __DIR__ . '/../..' . '/src/AcontecimientoTraumaticoSevero.php',
+        'src\\Afectacion' => __DIR__ . '/../..' . '/src/Afectacion.php',
+        'src\\CrearTrabajador' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/CrearTrabajador.php',
+        'src\\CuestionarioEts' => __DIR__ . '/../..' . '/src/CuestionarioEts.php',
+        'src\\Departamento' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/Departamento.php',
+        'src\\Edad' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/Edad.php',
+        'src\\EsfuerzoPorEvitarCircunstanciasParecidasOAsociadasAlAcontecimiento' => __DIR__ . '/../..' . '/src/EsfuerzoPorEvitarCircunstanciasParecidasOAsociadasAlAcontecimiento.php',
+        'src\\EstadoCivil' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/EstadoCivil.php',
+        'src\\Factory' => __DIR__ . '/..' . '/osvaldogdelrio/factory/src/Factory.php',
+        'src\\FactoryClassInterface' => __DIR__ . '/..' . '/osvaldogdelrio/factory/src/FactoryClassInterface.php',
+        'src\\FactoryInterface' => __DIR__ . '/..' . '/osvaldogdelrio/factory/src/FactoryInterface.php',
+        'src\\IdDeTrabajador' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/IdDeTrabajador.php',
+        'src\\NivelDeEstudios' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/NivelDeEstudios.php',
+        'src\\Ocupacion' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/Ocupacion.php',
+        'src\\RangoDeEdad' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/RangoDeEdad.php',
+        'src\\RangoExperienciaLaboral' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/RangoExperienciaLaboral.php',
+        'src\\RangoTiempoEnPuesto' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/RangoTiempoEnPuesto.php',
+        'src\\RealizaRotacion' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/RealizaRotacion.php',
+        'src\\RecuerdosPersistentesSobreElAcontecimiento' => __DIR__ . '/../..' . '/src/RecuerdosPersistentesSobreElAcontecimiento.php',
+        'src\\Sexo' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/Sexo.php',
+        'src\\TipoDeContratacion' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/TipoDeContratacion.php',
+        'src\\TipoDeJornada' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/TipoDeJornada.php',
+        'src\\TipoDePersonal' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/TipoDePersonal.php',
+        'src\\TipoDePuesto' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/TipoDePuesto.php',
+        'src\\Trabajador' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/Trabajador.php',
+        'src\\TrabajadorConId' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/TrabajadorConId.php',
+        'src\\ValoresParaBaseDeDatosTrabajador' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/ValoresParaBaseDeDatosTrabajador.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
