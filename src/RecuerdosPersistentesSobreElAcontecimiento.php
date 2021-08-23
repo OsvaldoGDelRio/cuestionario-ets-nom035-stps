@@ -2,18 +2,22 @@
 namespace src;
 
 use Exception;
+use src\AcontecimientoTraumaticoSevero;
 
 class RecuerdosPersistentesSobreElAcontecimiento
 {
+    private $_acontecimientoTraumaticoSevero;
     private $_pregunta1;
     private $_pregunta2;
     
     public function __construct
     (
+        AcontecimientoTraumaticoSevero $AcontecimientoTraumaticoSevero,
         string $pregunta1,
         string $pregunta2
     )
     {
+        $this->_acontecimientoTraumaticoSevero = $AcontecimientoTraumaticoSevero;
         $this->_pregunta1 = $this->setPregunta($pregunta1);
         $this->_pregunta2 = $this->setPregunta($pregunta2);
     }
