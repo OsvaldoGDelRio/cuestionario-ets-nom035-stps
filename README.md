@@ -1,5 +1,5 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/OsvaldoGDelRio/custionario-ets-nom035-stps/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/OsvaldoGDelRio/custionario-ets-nom035-stps/?branch=main)
-[![Code Coverage](https://scrutinizer-ci.com/g/OsvaldoGDelRio/custionario-ets-nom035-stps/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/OsvaldoGDelRio/custionario-ets-nom035-stps/?branch=main)
+[![Build Status](https://scrutinizer-ci.com/g/OsvaldoGDelRio/custionario-ets-nom035-stps/badges/build.png?b=main)](https://scrutinizer-ci.com/g/OsvaldoGDelRio/custionario-ets-nom035-stps/build-status/main)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/OsvaldoGDelRio/custionario-ets-nom035-stps/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
 
 # custionario-ets-nom035-stps
