@@ -7,69 +7,69 @@ use src\AcontecimientoTraumaticoSevero;
 class EsfuerzoPorEvitarCircunstanciasParecidasOAsociadasAlAcontecimiento
 {
     private $_acontecimientoTraumaticoSevero;
-    private $_pregunta1;
-    private $_pregunta2;
-    private $_pregunta3;
-    private $_pregunta4;
-    private $_pregunta5;
-    private $_pregunta6;
-    private $_pregunta7;
+    private $_pregunta9;
+    private $_pregunta10;
+    private $_pregunta11;
+    private $_pregunta12;
+    private $_pregunta13;
+    private $_pregunta14;
+    private $_pregunta15;
 
     public function __construct
     (
         AcontecimientoTraumaticoSevero $AcontecimientoTraumaticoSevero,
-        string $pregunta1,
-        string $pregunta2,
-        string $pregunta3,
-        string $pregunta4,
-        string $pregunta5,
-        string $pregunta6,
-        string $pregunta7
+        string $pregunta9,
+        string $pregunta10,
+        string $pregunta11,
+        string $pregunta12,
+        string $pregunta13,
+        string $pregunta14,
+        string $pregunta15
     )
     {
         $this->_acontecimientoTraumaticoSevero = $AcontecimientoTraumaticoSevero;
-        $this->_pregunta1 = $this->setPregunta($pregunta1);
-        $this->_pregunta2 = $this->setPregunta($pregunta2);
-        $this->_pregunta3 = $this->setPregunta($pregunta3);
-        $this->_pregunta4 = $this->setPregunta($pregunta4);
-        $this->_pregunta5 = $this->setPregunta($pregunta5);
-        $this->_pregunta6 = $this->setPregunta($pregunta6);
-        $this->_pregunta7 = $this->setPregunta($pregunta7);
+        $this->_pregunta9 = $this->setPregunta($pregunta9);
+        $this->_pregunta10 = $this->setPregunta($pregunta10);
+        $this->_pregunta11 = $this->setPregunta($pregunta11);
+        $this->_pregunta12 = $this->setPregunta($pregunta12);
+        $this->_pregunta13 = $this->setPregunta($pregunta13);
+        $this->_pregunta14 = $this->setPregunta($pregunta14);
+        $this->_pregunta15 = $this->setPregunta($pregunta15);
     }
 
-    public function pregunta1(): string
+    public function pregunta9(): string
     {
-        return $this->_pregunta1;
+        return $this->_pregunta9;
     }
 
-    public function pregunta2(): string
+    public function pregunta10(): string
     {
-        return $this->_pregunta2;
+        return $this->_pregunta10;
     }
 
-    public function pregunta3(): string
+    public function pregunta11(): string
     {
-        return $this->_pregunta3;
+        return $this->_pregunta11;
     }
 
-    public function pregunta4(): string
+    public function pregunta12(): string
     {
-        return $this->_pregunta4;
+        return $this->_pregunta12;
     }
 
-    public function pregunta5(): string
+    public function pregunta13(): string
     {
-        return $this->_pregunta5;
+        return $this->_pregunta13;
     }
 
-    public function pregunta6(): string
+    public function pregunta14(): string
     {
-        return $this->_pregunta6;
+        return $this->_pregunta14;
     }
 
-    public function pregunta7(): string
+    public function pregunta15(): string
     {
-        return $this->_pregunta7;
+        return $this->_pregunta15;
     }
 
     private function setPregunta(string $respuesta): string

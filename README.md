@@ -7,7 +7,7 @@ Clase PHP para el CUESTIONARIO PARA IDENTIFICAR A LOS TRABAJADORES QUE FUERON SU
 
 ## composer
 ```shell
-osvaldogdelrio/cuestionario-ets-nom035-stps
+composer require osvaldogdelrio/cuestionario-ets-nom035-stps
 ```
 
 ## Ejemplo de uso

@@ -7,29 +7,29 @@ use src\AcontecimientoTraumaticoSevero;
 class RecuerdosPersistentesSobreElAcontecimiento
 {
     private $_acontecimientoTraumaticoSevero;
-    private $_pregunta1;
-    private $_pregunta2;
+    private $_pregunta7;
+    private $_pregunta8;
     
     public function __construct
     (
         AcontecimientoTraumaticoSevero $AcontecimientoTraumaticoSevero,
-        string $pregunta1,
-        string $pregunta2
+        string $pregunta7,
+        string $pregunta8
     )
     {
         $this->_acontecimientoTraumaticoSevero = $AcontecimientoTraumaticoSevero;
-        $this->_pregunta1 = $this->setPregunta($pregunta1);
-        $this->_pregunta2 = $this->setPregunta($pregunta2);
+        $this->_pregunta7 = $this->setPregunta($pregunta7);
+        $this->_pregunta8 = $this->setPregunta($pregunta8);
     }
 
-    public function pregunta1(): string
+    public function pregunta7(): string
     {
-        return $this->_pregunta1;
+        return $this->_pregunta7;
     }
 
-    public function pregunta2(): string
+    public function pregunta8(): string
     {
-        return $this->_pregunta2;
+        return $this->_pregunta8;
     }
 
     private function setPregunta(string $respuesta): string

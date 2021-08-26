@@ -7,53 +7,53 @@ use src\AcontecimientoTraumaticoSevero;
 class Afectacion
 {
     private $_acontecimientoTraumaticoSevero;
-    private $_pregunta1;
-    private $_pregunta2;
-    private $_pregunta3;
-    private $_pregunta4;
-    private $_pregunta5;
+    private $_pregunta16;
+    private $_pregunta17;
+    private $_pregunta18;
+    private $_pregunta19;
+    private $_pregunta20;
    
     public function __construct
     (
         AcontecimientoTraumaticoSevero $AcontecimientoTraumaticoSevero,
-        string $pregunta1,
-        string $pregunta2,
-        string $pregunta3,
-        string $pregunta4,
-        string $pregunta5
+        string $pregunta16,
+        string $pregunta17,
+        string $pregunta18,
+        string $pregunta19,
+        string $pregunta20
     )
     {
         $this->_acontecimientoTraumaticoSevero = $AcontecimientoTraumaticoSevero;
-        $this->_pregunta1 = $this->setPregunta($pregunta1);
-        $this->_pregunta2 = $this->setPregunta($pregunta2);
-        $this->_pregunta3 = $this->setPregunta($pregunta3);
-        $this->_pregunta4 = $this->setPregunta($pregunta4);
-        $this->_pregunta5 = $this->setPregunta($pregunta5);
+        $this->_pregunta16 = $this->setPregunta($pregunta16);
+        $this->_pregunta17 = $this->setPregunta($pregunta17);
+        $this->_pregunta18 = $this->setPregunta($pregunta18);
+        $this->_pregunta19 = $this->setPregunta($pregunta19);
+        $this->_pregunta20 = $this->setPregunta($pregunta20);
     }
 
-    public function pregunta1(): string
+    public function pregunta16(): string
     {
-        return $this->_pregunta1;
+        return $this->_pregunta16;
     }
 
-    public function pregunta2(): string
+    public function pregunta17(): string
     {
-        return $this->_pregunta2;
+        return $this->_pregunta17;
     }
 
-    public function pregunta3(): string
+    public function pregunta18(): string
     {
-        return $this->_pregunta3;
+        return $this->_pregunta18;
     }
 
-    public function pregunta4(): string
+    public function pregunta19(): string
     {
-        return $this->_pregunta4;
+        return $this->_pregunta19;
     }
 
-    public function pregunta5(): string
+    public function pregunta20(): string
     {
-        return $this->_pregunta5;
+        return $this->_pregunta20;
     }
 
     private function setPregunta(string $respuesta): string
