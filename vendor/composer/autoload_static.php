@@ -26,6 +26,8 @@ class ComposerStaticInit7c679878d06cac50f7cb4053b3965518
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'src\\AcontecimientoTraumaticoSevero' => __DIR__ . '/../..' . '/src/AcontecimientoTraumaticoSevero.php',
         'src\\Afectacion' => __DIR__ . '/../..' . '/src/Afectacion.php',
+        'src\\CambiarValoresParaBaseDeDatosCuestionarioEts' => __DIR__ . '/../..' . '/src/CambiarValoresParaBaseDeDatosCuestionarioEts.php',
+        'src\\CrearCuestionarioEts' => __DIR__ . '/../..' . '/src/CrearCuestionarioEts.php',
         'src\\CrearTrabajador' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/CrearTrabajador.php',
         'src\\CuestionarioEts' => __DIR__ . '/../..' . '/src/CuestionarioEts.php',
         'src\\Departamento' => __DIR__ . '/..' . '/osvaldogdelrio/trabajador/src/Departamento.php',

@@ -9,6 +9,8 @@ return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'src\\AcontecimientoTraumaticoSevero' => $baseDir . '/src/AcontecimientoTraumaticoSevero.php',
     'src\\Afectacion' => $baseDir . '/src/Afectacion.php',
+    'src\\CambiarValoresParaBaseDeDatosCuestionarioEts' => $baseDir . '/src/CambiarValoresParaBaseDeDatosCuestionarioEts.php',
+    'src\\CrearCuestionarioEts' => $baseDir . '/src/CrearCuestionarioEts.php',
     'src\\CrearTrabajador' => $vendorDir . '/osvaldogdelrio/trabajador/src/CrearTrabajador.php',
     'src\\CuestionarioEts' => $baseDir . '/src/CuestionarioEts.php',
     'src\\Departamento' => $vendorDir . '/osvaldogdelrio/trabajador/src/Departamento.php',

@@ -12,6 +12,8 @@ use src\{CuestionarioEts,AcontecimientoTraumaticoSevero, Afectacion, EsfuerzoPor
 
 use src\CrearCuestionarioEts;
 
+use src\CambiarValoresParaBaseDeDatosCuestionarioEts;
+
 $ets = new AcontecimientoTraumaticoSevero('No','No','No','No','No','No');
 
 $cuestionario = new CuestionarioEts(
@@ -29,8 +31,7 @@ echo '<h1>Crear Cuestionario a partir de Factory con array</h1>';
 Crear cuestionario con factory proveniente de un array con datos
 */
 $cuestionario = new CrearCuestionarioEts;
-
-$cuestionario = $cuestionario->crear(array(
+$datos = array(
     'pregunta1' => 'No',
     'pregunta2' => 'No',
     'pregunta3' => 'No',
@@ -51,6 +52,19 @@ $cuestionario = $cuestionario->crear(array(
     'pregunta18' => 'No',
     'pregunta19' => 'No',
     'pregunta20' => 'No',
-));
+);
+
+$cuestionario = $cuestionario->crear($datos);
 
 var_dump($cuestionario);
+
+$convertir = new CambiarValoresParaBaseDeDatosCuestionarioEts;
+
+/*
+Cambiar valores de texto a número
+*/
+echo '<h1>Cambiar valores de texto a número</h1>';
+var_dump($convertir->cambiarTodosLosValoresDeTextoANumero($datos));
+
+echo '<h1>Cambiar valores de número a texto</h1>';
+var_dump($convertir->cambiarTodosLosValoresDeNumeroATexto((array) $convertir->cambiarTodosLosValoresDeTextoANumero($datos)));
