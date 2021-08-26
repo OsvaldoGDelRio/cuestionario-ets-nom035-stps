@@ -15,7 +15,6 @@
         }
     },
     "require": {
-        "osvaldogdelrio/factory": "dev-main",
-        "osvaldogdelrio/trabajador": "dev-main"
+        "osvaldogdelrio/factory": "dev-main"
     }
 }
